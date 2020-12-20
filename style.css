@@ -1,0 +1,59 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    header {
+        background-image: url("vzS2Hx.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0;
+        color: white;
+    }
+    
+    form {
+        position: relative;
+        height: 40px;
+        width: 500px;
+    }
+    
+    button {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        height: 42px;
+        width: 90px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        top: 3px;
+        right: 3px;
+        background-color: rgb(5, 172, 172);
+    }
+    
+    button:hover {
+        background-color: rgb(3, 124, 124);
+    }
+    
+    input[type=text] {
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    
+    input[type=text]:focus,
+    button:focus {
+        outline: none;
+    }
+    /* body */
